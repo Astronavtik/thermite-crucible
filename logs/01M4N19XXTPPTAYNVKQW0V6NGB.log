@@ -5,3 +5,8 @@ target  x86_64-pc-windows-gnu
 rust    stable
 runner  Linux/X64
 
+$ git clone --depth 1 https://github.com/openOMSI-org/openOMSI.git (ref v0.2.30)
+  fetched openOMSI-org/openOMSI @ v0.2.30 · crates/omsi-plugin
+  40 files, 0.5 MiB
+##thermite:fetched
+$ apt-get install -y gcc-mingw-w64-x86-64
