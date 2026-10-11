@@ -823,3 +823,16 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m itertools v0.11.0
 [1m[92m   Compiling[0m omsi-timetable v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/crates/omsi-timetable)
 [1m[92m   Compiling[0m winit v0.30.13
+[1m[92m   Compiling[0m simplecss v0.2.2
+[1m[92m   Compiling[0m filetime v0.2.29
+[1m[92m   Compiling[0m imagesize v0.13.0
+[1m[92m   Compiling[0m base62 v2.2.6
+[1m[92m   Compiling[0m normpath v1.5.2
+[1m[92m   Compiling[0m jiff-core v0.1.1
+[1m[92m   Compiling[0m heck v0.5.0
+[1m[92m   Compiling[0m strsim v0.11.1
+[1m[92m   Compiling[0m xmlwriter v0.1.0
+[1m[92m   Compiling[0m cpal v0.15.3
+[1m[92m   Compiling[0m roxmltree v0.20.0
+[1m[92m   Compiling[0m clap_lex v1.1.0
+[1m[92m   Compiling[0m lzma-rust2 v0.20.1
