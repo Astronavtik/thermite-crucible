@@ -794,3 +794,11 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m memmap2 v0.9.11
 [1m[92m   Compiling[0m bumpalo v3.20.3
 [1m[92m   Compiling[0m cpubits v0.1.1
+[1m[92m   Compiling[0m rfd v0.15.4
+[1m[92m   Compiling[0m fastrand v2.5.0
+[1m[92m   Compiling[0m cpufeatures v0.2.17
+[1m[92m   Compiling[0m ab_glyph_rasterizer v0.1.10
+[1m[92m   Compiling[0m data-encoding v2.11.1
+[1m[92m   Compiling[0m nohash-hasher v0.2.0
+[1m[92m   Compiling[0m tungstenite v0.30.0
+[1m[92m   Compiling[0m serde-saphyr v1.3.0
