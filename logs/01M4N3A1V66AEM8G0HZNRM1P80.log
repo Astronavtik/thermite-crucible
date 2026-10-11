@@ -816,3 +816,4 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m rmp-serde v1.3.1
 [1m[92m   Compiling[0m windows-core v0.54.0
 [1m[92m   Compiling[0m omsi-geometry v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N3A1V66AEM8G0HZNRM1P80/source/crates/omsi-geometry)
+[1m[92m   Compiling[0m regex v1.13.1
