@@ -693,3 +693,10 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m walkdir v2.5.0
 [1m[92m   Compiling[0m toml v1.1.6+spec-1.1.0
 [1m[92m   Compiling[0m globset v0.4.20
+[1m[92m   Compiling[0m rustls-webpki v0.103.15
+[1m[92m   Compiling[0m idna_adapter v1.2.2
+[1m[92m   Compiling[0m block-buffer v0.10.4
+[1m[92m   Compiling[0m crypto-common v0.1.7
+[1m[92m   Compiling[0m webpki-roots v1.0.9
+[1m[92m   Compiling[0m wgpu-types v29.0.4
+[1m[92m   Compiling[0m omsi-model v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N3A1V66AEM8G0HZNRM1P80/source/crates/omsi-model)
