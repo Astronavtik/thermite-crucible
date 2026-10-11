@@ -804,3 +804,8 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m aes v0.9.3
 [1m[92m   Compiling[0m zopfli v0.8.3
 [1m[92m   Compiling[0m reedsolomon-rs v0.4.7
+[1m[92m   Compiling[0m svgtypes v0.15.3
+[1m[92m   Compiling[0m blake2s_simd v1.0.5
+[1m[92m   Compiling[0m crc-fast v1.10.0
+[1m[92m   Compiling[0m ab_glyph v0.2.32
+[1m[92m   Compiling[0m openxr-sys v0.14.0
