@@ -802,3 +802,8 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m nohash-hasher v0.2.0
 [1m[92m   Compiling[0m tungstenite v0.30.0
 [1m[92m   Compiling[0m serde-saphyr v1.3.0
+[1m[92m   Compiling[0m triomphe v0.1.16
+[1m[92m   Compiling[0m ab_glyph v0.2.32
+[1m[92m   Compiling[0m sha2 v0.10.9
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m aes v0.9.3
