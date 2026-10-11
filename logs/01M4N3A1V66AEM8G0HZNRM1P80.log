@@ -852,3 +852,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m usvg v0.45.1
 [1m[92m   Compiling[0m sevenz-rust2 v0.22.2
 [1m[92m   Compiling[0m zip v8.6.0
+[1m[92m   Compiling[0m clap_derive v4.6.7
+[1m[92m   Compiling[0m mlua v0.10.5
