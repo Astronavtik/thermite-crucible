@@ -770,3 +770,9 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m tiny-skia-path v0.11.4
 [1m[92m   Compiling[0m http v1.5.0
 [1m[92m   Compiling[0m rand v0.10.3
+[1m[92m   Compiling[0m ureq v2.12.1
+[1m[92m   Compiling[0m wgpu-core-deps-windows-linux-android v29.0.4
+[1m[92m   Compiling[0m encoding_rs_io v0.1.8
+[1m[92m   Compiling[0m symphonia-utils-xiph v0.5.5
+[1m[92m   Compiling[0m omsi-o3d v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/crates/omsi-o3d)
+[1m[92m   Compiling[0m omsi-scenery v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/crates/omsi-scenery)
