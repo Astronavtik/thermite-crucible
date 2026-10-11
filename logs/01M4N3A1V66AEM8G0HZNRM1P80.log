@@ -918,3 +918,7 @@ Caused by:
 
 ##thermite:failed:101
 Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
