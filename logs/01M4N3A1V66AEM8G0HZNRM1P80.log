@@ -706,3 +706,8 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m percent-encoding v2.3.2
 [1m[92m   Compiling[0m presser v0.3.1
 [1m[92m   Compiling[0m glam v0.30.10
+[1m[92m   Compiling[0m form_urlencoded v1.2.2
+[1m[92m   Compiling[0m gpu-descriptor v0.3.2
+[1m[92m   Compiling[0m inout v0.2.2
+[1m[92m   Compiling[0m webpki-roots v0.26.11
+[1m[92m   Compiling[0m digest v0.10.7
