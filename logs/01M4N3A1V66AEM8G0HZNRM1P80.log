@@ -753,3 +753,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m png v0.18.1
 [1m[92m   Compiling[0m anstyle-query v1.1.5
 [1m[92m   Compiling[0m omsi-vehicle v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N3A1V66AEM8G0HZNRM1P80/source/crates/omsi-vehicle)
+[1m[92m   Compiling[0m wgpu-core v29.0.4
+[1m[92m   Compiling[0m winnow v0.7.15
