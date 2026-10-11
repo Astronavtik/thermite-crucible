@@ -1,97 +1,0 @@
-THERMITE // pour 01M4N19XXTPPTAYNVKQW0V6NGB
-commit  65450cca0a205ee1f11dea03051cef0ff9b27c2a
-run     38124870506
-target  x86_64-pc-windows-gnu
-rust    stable
-runner  Linux/X64
-
-$ git clone --depth 1 https://github.com/openOMSI-org/openOMSI.git (ref v0.2.30)
-  fetched openOMSI-org/openOMSI @ v0.2.30 · crates/omsi-plugin
-  40 files, 0.5 MiB
-##thermite:fetched
-$ apt-get install -y gcc-mingw-w64-x86-64
-Selecting previously unselected package binutils-mingw-w64-x86-64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 203191 files and directories currently installed.)
-Preparing to unpack .../0-binutils-mingw-w64-x86-64_2.41.90.20240122-1ubuntu1+11.4_amd64.deb ...
-Unpacking binutils-mingw-w64-x86-64 (2.41.90.20240122-1ubuntu1+11.4) ...
-Selecting previously unselected package mingw-w64-common.
-Preparing to unpack .../1-mingw-w64-common_11.0.1-3build1_all.deb ...
-Unpacking mingw-w64-common (11.0.1-3build1) ...
-Selecting previously unselected package mingw-w64-x86-64-dev.
-Preparing to unpack .../2-mingw-w64-x86-64-dev_11.0.1-3build1_all.deb ...
-Unpacking mingw-w64-x86-64-dev (11.0.1-3build1) ...
-Selecting previously unselected package gcc-mingw-w64-base:amd64.
-Preparing to unpack .../3-gcc-mingw-w64-base_13.2.0-6ubuntu1+26.1_amd64.deb ...
-Unpacking gcc-mingw-w64-base:amd64 (13.2.0-6ubuntu1+26.1) ...
-Selecting previously unselected package gcc-mingw-w64-x86-64-posix-runtime.
-Preparing to unpack .../4-gcc-mingw-w64-x86-64-posix-runtime_13.2.0-6ubuntu1+26.1_amd64.deb ...
-Unpacking gcc-mingw-w64-x86-64-posix-runtime (13.2.0-6ubuntu1+26.1) ...
-Selecting previously unselected package gcc-mingw-w64-x86-64-posix.
-Preparing to unpack .../5-gcc-mingw-w64-x86-64-posix_13.2.0-6ubuntu1+26.1_amd64.deb ...
-Unpacking gcc-mingw-w64-x86-64-posix (13.2.0-6ubuntu1+26.1) ...
-Selecting previously unselected package gcc-mingw-w64-x86-64-win32-runtime.
-Preparing to unpack .../6-gcc-mingw-w64-x86-64-win32-runtime_13.2.0-6ubuntu1+26.1_amd64.deb ...
-Unpacking gcc-mingw-w64-x86-64-win32-runtime (13.2.0-6ubuntu1+26.1) ...
-Selecting previously unselected package gcc-mingw-w64-x86-64-win32.
-Preparing to unpack .../7-gcc-mingw-w64-x86-64-win32_13.2.0-6ubuntu1+26.1_amd64.deb ...
-Unpacking gcc-mingw-w64-x86-64-win32 (13.2.0-6ubuntu1+26.1) ...
-Selecting previously unselected package gcc-mingw-w64-x86-64.
-Preparing to unpack .../8-gcc-mingw-w64-x86-64_13.2.0-6ubuntu1+26.1_all.deb ...
-Unpacking gcc-mingw-w64-x86-64 (13.2.0-6ubuntu1+26.1) ...
-Setting up binutils-mingw-w64-x86-64 (2.41.90.20240122-1ubuntu1+11.4) ...
-Setting up gcc-mingw-w64-base:amd64 (13.2.0-6ubuntu1+26.1) ...
-Setting up gcc-mingw-w64-x86-64-win32-runtime (13.2.0-6ubuntu1+26.1) ...
-Setting up mingw-w64-common (11.0.1-3build1) ...
-Setting up mingw-w64-x86-64-dev (11.0.1-3build1) ...
-Setting up gcc-mingw-w64-x86-64-posix-runtime (13.2.0-6ubuntu1+26.1) ...
-Setting up gcc-mingw-w64-x86-64-posix (13.2.0-6ubuntu1+26.1) ...
-update-alternatives: using /usr/bin/x86_64-w64-mingw32-gcc-posix to provide /usr/bin/x86_64-w64-mingw32-gcc (x86_64-w64-mingw32-gcc) in auto mode
-Setting up gcc-mingw-w64-x86-64-win32 (13.2.0-6ubuntu1+26.1) ...
-update-alternatives: using /usr/bin/x86_64-w64-mingw32-gcc-win32 to provide /usr/bin/x86_64-w64-mingw32-gcc (x86_64-w64-mingw32-gcc) in auto mode
-Setting up gcc-mingw-w64-x86-64 (13.2.0-6ubuntu1+26.1) ...
-Processing triggers for man-db (2.12.0-4build2) ...
-Not building database; man-db/auto-update is not 'true'.
-
-Running kernel seems to be up-to-date.
-
-No services need to be restarted.
-
-No containers need to be restarted.
-
-No user sessions are running outdated binaries.
-
-No VM guests are running outdated hypervisor (qemu) binaries on this host.
-
-$ rustup toolchain install stable --profile minimal
-info: syncing channel updates for stable-x86_64-unknown-linux-gnu
-
-  stable-x86_64-unknown-linux-gnu unchanged - rustc 1.99.0 (b940084d7 2026-09-28)
-
-
-$ rustup target add x86_64-pc-windows-gnu --toolchain stable
-info: downloading component rust-std
-
-  rustc 1.99.0 (b940084d7 2026-09-28)
-  cargo 1.99.0 (5f94df478 2026-08-27)
-  runner Linux/X64
-##thermite:toolchain-ready
-  cross linker x86_64-w64-mingw32-gcc
-  sandbox  separate unprivileged user
-
-##thermite:compiling
-$ cargo +stable build --release --target x86_64-pc-windows-gnu
-
-[1m[91merror[0m: failed to parse manifest at `/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N19XXTPPTAYNVKQW0V6NGB/source/Cargo.toml`
-
-Caused by:
-  error inheriting `edition` from workspace root manifest's `workspace.package.edition`
-
-Caused by:
-  failed to find a workspace root
-
-##thermite:failed:101
-Compilation failed. Exit code 101.
-
-BUILD FAILED
-
-##thermite:end:FAILED
