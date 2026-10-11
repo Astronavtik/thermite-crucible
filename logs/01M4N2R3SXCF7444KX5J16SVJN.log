@@ -735,3 +735,8 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m once_cell_polyfill v1.70.2
 [1m[92m   Compiling[0m anstyle-wincon v3.0.11
 [1m[92m   Compiling[0m moxcms v0.8.1
+[1m[92m   Compiling[0m globwalk v0.8.1
+[1m[92m   Compiling[0m mlua-sys v0.6.8
+[1m[92m   Compiling[0m tracing v0.1.44
+[1m[92m   Compiling[0m strict-num v0.1.1
+[1m[92m   Compiling[0m zune-jpeg v0.5.15
