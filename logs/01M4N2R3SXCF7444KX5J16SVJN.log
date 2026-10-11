@@ -710,3 +710,8 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m wgpu-naga-bridge v29.0.4
 [1m[92m   Compiling[0m idna v1.1.0
 [1m[92m   Compiling[0m ignore v0.4.33
+[1m[92m   Compiling[0m gpu-allocator v0.28.0 (https://github.com/openOMSI-Project/gpu-allocator?rev=6ad8a7eeb9c3e1dcd65656f718c593a0a1a3915d#6ad8a7ee)
+[1m[92m   Compiling[0m winresource v0.1.31
+[1m[92m   Compiling[0m luajit-src v210.5.12+a4f56a4
+[1m[92m   Compiling[0m symphonia-metadata v0.5.5
+[1m[92m   Compiling[0m omsi-map v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/crates/omsi-map)
