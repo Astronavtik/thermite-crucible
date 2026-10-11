@@ -785,3 +785,12 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m windows-result v0.1.2
 [1m[92m   Compiling[0m omsi-content v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N3A1V66AEM8G0HZNRM1P80/source/crates/omsi-content)
 [1m[92m   Compiling[0m wgpu v29.0.4
+[1m[92m   Compiling[0m rmp v0.8.15
+[1m[92m   Compiling[0m cmake v0.1.58
+[1m[92m   Compiling[0m kurbo v0.11.3
+[1m[92m   Compiling[0m arc-swap v1.9.2
+[1m[92m   Compiling[0m spin v0.10.1
+[1m[92m   Compiling[0m constant_time_eq v0.4.2
+[1m[92m   Compiling[0m memmap2 v0.9.11
+[1m[92m   Compiling[0m bumpalo v3.20.3
+[1m[92m   Compiling[0m cpubits v0.1.1
