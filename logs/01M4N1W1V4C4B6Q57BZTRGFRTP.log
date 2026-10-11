@@ -5,3 +5,4 @@ target  x86_64-pc-windows-gnu
 rust    stable
 runner  Linux/X64
 
+$ apt-get install -y gcc-mingw-w64-x86-64
