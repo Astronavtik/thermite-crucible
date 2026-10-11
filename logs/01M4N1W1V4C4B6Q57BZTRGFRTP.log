@@ -72,3 +72,8 @@ info: downloading component rust-std
   runner Linux/X64
 ##thermite:toolchain-ready
   cross linker x86_64-w64-mingw32-gcc
+  sandbox  separate unprivileged user
+
+##thermite:compiling
+$ rustc +stable --edition 2021 -O --target x86_64-pc-windows-gnu -o out/omsi-plugin-host.exe source/omsi-plugin-host.rs
+
