@@ -857,3 +857,57 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m rust-i18n v4.2.4
 [1m[92m   Compiling[0m env_filter v2.0.0
 [1m[92m   Compiling[0m windows v0.54.0
+[1m[33mwarning[0m: openxr-sys@0.14.0: Compiler family detection failed due to error: ToolNotFound: failed to find tool "x86_64-w64-mingw32-g++": No such file or directory (os error 2)
+[1m[91merror[0m: failed to run custom build command for `openxr-sys v0.14.0`
+
+Caused by:
+  process didn't exit successfully: `/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/target/release/build/openxr-sys-0f8f021a3036f4c6/build-script-build` (exit status: 101)
+  --- stdout
+  CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-gnu = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_gnu = None
+  TARGET_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_GENERATOR_x86_64-pc-windows-gnu = None
+  CMAKE_GENERATOR_x86_64_pc_windows_gnu = None
+  TARGET_CMAKE_GENERATOR = None
+  CMAKE_GENERATOR = None
+  cargo:warning=Compiler family detection failed due to error: ToolNotFound: failed to find tool "x86_64-w64-mingw32-g++": No such file or directory (os error 2)
+  CMAKE_PREFIX_PATH_x86_64-pc-windows-gnu = None
+  CMAKE_PREFIX_PATH_x86_64_pc_windows_gnu = None
+  TARGET_CMAKE_PREFIX_PATH = None
+  CMAKE_PREFIX_PATH = None
+  CMAKE_x86_64-pc-windows-gnu = None
+  CMAKE_x86_64_pc_windows_gnu = None
+  TARGET_CMAKE = None
+  CMAKE = None
+  -- The C compiler identification is GNU 13.0.0
+  -- The CXX compiler identification is unknown
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: /usr/bin/x86_64-w64-mingw32-gcc - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Configuring incomplete, errors occurred!
+
+  --- stderr
+  running: cd "/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/target/x86_64-pc-windows-gnu/release/build/openxr-sys-d18cd7dc2e24f3ea/out/build" && CMAKE_PREFIX_PATH="" LC_ALL="C" "cmake" "/home/pourer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openxr-sys-0.14.0/OpenXR-SDK" "-B" "/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/target/x86_64-pc-windows-gnu/release/build/openxr-sys-d18cd7dc2e24f3ea/out/build" "-DCMAKE_RC_COMPILER=/usr/bin/x86_64-w64-mingw32-windres" "-DBUILD_API_LAYERS=OFF" "-DBUILD_TESTS=OFF" "-DOpenGL_GL_PREFERENCE=GLVND" "-DDYNAMIC_LOADER=OFF" "-DCMAKE_INSTALL_LIBDIR=lib" "-DBUILD_WITH_SYSTEM_JSONCPP=OFF" "-DCMAKE_SYSTEM_NAME=Windows" "-DCMAKE_SYSTEM_PROCESSOR=AMD64" "-DCMAKE_INSTALL_PREFIX=/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/target/x86_64-pc-windows-gnu/release/build/openxr-sys-d18cd7dc2e24f3ea/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -m64 -w" "-DCMAKE_C_COMPILER=/usr/bin/x86_64-w64-mingw32-gcc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -m64 -w" "-DCMAKE_CXX_COMPILER=x86_64-w64-mingw32-g++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -m64 -w" "-DCMAKE_ASM_COMPILER=/usr/bin/x86_64-w64-mingw32-gcc" "-DCMAKE_BUILD_TYPE=Release"
+  CMake Error at CMakeLists.txt:22 (project):
+    The CMAKE_CXX_COMPILER:
+
+      x86_64-w64-mingw32-g++
+
+    is not a full path and was not found in the PATH.
+
+    Tell CMake where to find the compiler by setting either the environment
+    variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+    to the compiler, or to the compiler name if it is in the PATH.
+
+
+
+  thread 'main' (7964) panicked at /home/pourer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cmake-0.1.58/src/lib.rs:1132:5:
+
+  command did not execute successfully, got: exit status: 1
+
+  build script failed, must exit now
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[1m[33mwarning[0m: build failed, waiting for other jobs to finish...
