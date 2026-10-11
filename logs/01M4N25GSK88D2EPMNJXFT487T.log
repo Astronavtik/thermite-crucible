@@ -72,3 +72,22 @@ info: downloading component rust-std
   runner Linux/X64
 ##thermite:toolchain-ready
   cross linker x86_64-w64-mingw32-gcc
+  sandbox  separate unprivileged user
+
+##thermite:compiling
+$ cargo +stable build --release --target x86_64-pc-windows-gnu
+
+[1m[91merror[0m: failed to parse manifest at `/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N25GSK88D2EPMNJXFT487T/source/Cargo.toml`
+
+Caused by:
+  error inheriting `edition` from workspace root manifest's `workspace.package.edition`
+
+Caused by:
+  failed to find a workspace root
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
