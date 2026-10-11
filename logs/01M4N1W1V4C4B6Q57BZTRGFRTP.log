@@ -77,3 +77,21 @@ info: downloading component rust-std
 ##thermite:compiling
 $ rustc +stable --edition 2021 -O --target x86_64-pc-windows-gnu -o out/omsi-plugin-host.exe source/omsi-plugin-host.rs
 
+[1m[91merror[E0432][0m[1m: unresolved import `omsi_plugin`[0m
+ [1m[94m--> [0mjobs/01M4N1W1V4C4B6Q57BZTRGFRTP/source/omsi-plugin-host.rs:6:5
+  [1m[94m|[0m
+[1m[94m6[0m [1m[94m|[0m use omsi_plugin::{wire, Library};
+  [1m[94m|[0m     [1m[91m^^^^^^^^^^^[0m [1m[91muse of unresolved module or unlinked crate `omsi_plugin`[0m
+  [1m[94m|[0m
+  [1m[94m= [0m[1mhelp[0m: you might be missing a crate named `omsi_plugin`
+
+[1m[91merror[0m[1m: aborting due to 1 previous error[0m
+
+[1mFor more information about this error, try `rustc --explain E0432`.[0m
+
+##thermite:failed:1
+Compilation failed. Exit code 1.
+
+BUILD FAILED
+
+##thermite:end:FAILED
