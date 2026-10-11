@@ -683,3 +683,13 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m rustls v0.23.45
 [1m[92m   Compiling[0m subtle v2.6.1
 [1m[92m   Compiling[0m env_home v0.1.0
+[1m[92m   Compiling[0m anyhow v1.0.104
+[1m[92m   Compiling[0m base64 v0.22.1
+[1m[92m   Compiling[0m khronos-egl v6.0.0
+[1m[92m   Compiling[0m hexf-parse v0.2.1
+[1m[92m   Compiling[0m foldhash v0.1.5
+[1m[92m   Compiling[0m hashbrown v0.15.5
+[1m[92m   Compiling[0m which v7.0.3
+[1m[92m   Compiling[0m walkdir v2.5.0
+[1m[92m   Compiling[0m toml v1.1.6+spec-1.1.0
+[1m[92m   Compiling[0m globset v0.4.20
