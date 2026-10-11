@@ -851,3 +851,4 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m mlua v0.10.5
 [1m[92m   Compiling[0m clap_builder v4.6.7
 [1m[92m   Compiling[0m jiff v0.2.37
+[1m[92m   Compiling[0m clap_derive v4.6.7
