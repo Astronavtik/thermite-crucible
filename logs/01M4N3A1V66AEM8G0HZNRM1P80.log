@@ -719,3 +719,11 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m luajit-src v210.5.12+a4f56a4
 [1m[92m   Compiling[0m symphonia-metadata v0.5.5
 [1m[92m   Compiling[0m omsi-map v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N3A1V66AEM8G0HZNRM1P80/source/crates/omsi-map)
+[1m[92m   Compiling[0m tracing-core v0.1.36
+[1m[92m   Compiling[0m ordered-float v5.5.0
+[1m[92m   Compiling[0m lua-src v547.0.0
+[1m[92m   Compiling[0m float-cmp v0.9.0
+[1m[92m   Compiling[0m profiling v1.0.18
+[1m[92m   Compiling[0m pin-project-lite v0.2.17
+[1m[92m   Compiling[0m itoa v1.0.18
+[1m[92m   Compiling[0m pxfm v0.1.30
