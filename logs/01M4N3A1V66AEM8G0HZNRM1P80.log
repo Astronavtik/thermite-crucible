@@ -859,3 +859,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m unrar-rs v0.10.8
 [1m[92m   Compiling[0m tiny-skia v0.11.4
 [1m[92m   Compiling[0m rust-i18n v4.2.4
+[1m[92m   Compiling[0m env_filter v2.0.0
+[1m[92m   Compiling[0m windows v0.54.0
