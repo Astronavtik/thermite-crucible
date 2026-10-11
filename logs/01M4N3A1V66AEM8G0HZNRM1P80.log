@@ -846,3 +846,9 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m heck v0.5.0
 [1m[92m   Compiling[0m data-url v0.3.2
 [1m[92m   Compiling[0m pico-args v0.5.0
+[1m[92m   Compiling[0m imagesize v0.13.0
+[1m[92m   Compiling[0m base62 v2.2.6
+[1m[92m   Compiling[0m rust-i18n-support v4.2.4
+[1m[92m   Compiling[0m usvg v0.45.1
+[1m[92m   Compiling[0m sevenz-rust2 v0.22.2
+[1m[92m   Compiling[0m zip v8.6.0
