@@ -649,3 +649,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m regex-automata v0.4.18
 [1m[92m   Compiling[0m gl_generator v0.14.0
 [1m[92m   Compiling[0m ctutils v0.4.2
+[1m[92m   Compiling[0m block-buffer v0.12.1
+[1m[92m   Compiling[0m naga v29.0.4
