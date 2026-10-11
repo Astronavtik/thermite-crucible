@@ -727,3 +727,15 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m pin-project-lite v0.2.17
 [1m[92m   Compiling[0m itoa v1.0.18
 [1m[92m   Compiling[0m pxfm v0.1.30
+[1m[92m   Compiling[0m pkg-config v0.3.34
+[1m[92m   Compiling[0m range-alloc v0.1.5
+[1m[92m   Compiling[0m siphasher v1.0.3
+[1m[92m   Compiling[0m renderdoc-sys v1.1.0
+[1m[92m   Compiling[0m glow v0.17.0
+[1m[92m   Compiling[0m httparse v1.10.1
+[1m[92m   Compiling[0m once_cell_polyfill v1.70.2
+[1m[92m   Compiling[0m utf8parse v0.2.2
+[1m[92m   Compiling[0m zune-core v0.5.3
+[1m[92m   Compiling[0m anstyle v1.0.14
+[1m[92m   Compiling[0m anstyle-wincon v3.0.11
+[1m[92m   Compiling[0m zune-jpeg v0.5.15
