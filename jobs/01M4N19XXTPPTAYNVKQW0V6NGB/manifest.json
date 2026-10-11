@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "01M4N19XXTPPTAYNVKQW0V6NGB",
+  "toolchain": "stable",
+  "target": "x86_64-pc-windows-gnu",
+  "projectType": "cargo",
+  "name": "omsi-plugin",
+  "entry": "",
+  "submittedAt": "2026-10-11T08:29:39.642Z",
+  "client": "thermite-web/1.0.0",
+  "files": 0,
+  "bytes": 0,
+  "source": {
+    "kind": "repo",
+    "owner": "openOMSI-org",
+    "repo": "openOMSI",
+    "ref": "v0.2.30",
+    "subdir": "crates/omsi-plugin"
+  },
+  "cleanup": {
+    "policy": "expire",
+    "onFailure": "keep"
+  }
+}
