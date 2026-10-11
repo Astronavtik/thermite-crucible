@@ -1,0 +1,7 @@
+THERMITE // pour 01M4N3A1V66AEM8G0HZNRM1P80
+commit  3952c30123378c2dcd185b5123f948a09a6764bd
+run     38126953936
+target  x86_64-pc-windows-gnu
+rust    stable
+runner  Linux/X64
+
