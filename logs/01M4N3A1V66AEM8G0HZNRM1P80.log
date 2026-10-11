@@ -713,3 +713,5 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m digest v0.10.7
 [1m[92m   Compiling[0m wgpu-naga-bridge v29.0.4
 [1m[92m   Compiling[0m idna v1.1.0
+[1m[92m   Compiling[0m gpu-allocator v0.28.0 (https://github.com/openOMSI-Project/gpu-allocator?rev=6ad8a7eeb9c3e1dcd65656f718c593a0a1a3915d#6ad8a7ee)
+[1m[92m   Compiling[0m winresource v0.1.31
