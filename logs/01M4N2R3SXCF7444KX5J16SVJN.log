@@ -813,3 +813,9 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m windows-core v0.54.0
 [1m[92m   Compiling[0m omsi-geometry v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/crates/omsi-geometry)
 [1m[92m   Compiling[0m omsi-texture v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/crates/omsi-texture)
+[1m[92m   Compiling[0m toml v0.8.23
+[1m[92m   Compiling[0m regex v1.13.1
+[1m[92m   Compiling[0m cbc v0.2.1
+[1m[92m   Compiling[0m omsi-launcher-core v0.1.0 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M4N2R3SXCF7444KX5J16SVJN/source/crates/omsi-launcher-core)
+[1m[92m   Compiling[0m sha2 v0.11.0
+[1m[92m   Compiling[0m hmac v0.13.0
