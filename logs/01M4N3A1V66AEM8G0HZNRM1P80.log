@@ -5,3 +5,8 @@ target  x86_64-pc-windows-gnu
 rust    stable
 runner  Linux/X64
 
+$ git clone --depth 1 https://github.com/Astronavtik/openOMSI.git (ref main)
+  fetched Astronavtik/openOMSI @ main
+  607 files, 14.3 MiB
+##thermite:fetched
+$ apt-get install -y gcc-mingw-w64-x86-64
