@@ -588,3 +588,12 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m yoke v0.8.3
 [1m[92m   Compiling[0m zerovec-derive v0.11.6
 [1m[92m   Compiling[0m windows-interface v0.59.3
+[1m[92m   Compiling[0m windows-implement v0.60.2
+[1m[92m   Compiling[0m windows-strings v0.5.1
+[1m[92m   Compiling[0m windows-result v0.4.1
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m windows_x86_64_gnu v0.52.6
+[1m[92m   Compiling[0m windows-core v0.62.2
+[1m[92m   Compiling[0m zerovec v0.11.8
+[1m[92m   Compiling[0m displaydoc v0.2.7
+[1m[92m   Compiling[0m memchr v2.8.3
