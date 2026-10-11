@@ -1,0 +1,18 @@
+{
+  "job": "01M4N19XXTPPTAYNVKQW0V6NGB",
+  "phase": "INGEST",
+  "live": true,
+  "startedAt": "2026-10-11T08:27:49.368Z",
+  "updatedAt": "2026-10-11T08:27:50.658Z",
+  "bytes": 177,
+  "lines": 7,
+  "lineRate": 7,
+  "runner": "Linux/X64",
+  "sealed": false,
+  "runId": "38124870506",
+  "sha": "65450cca0a205ee1f11dea03051cef0ff9b27c2a",
+  "rustc": null,
+  "cargo": null,
+  "target": "x86_64-pc-windows-gnu",
+  "toolchain": "stable"
+}
