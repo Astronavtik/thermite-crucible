@@ -11,4 +11,12 @@ $ git clone --depth 1 https://github.com/openOMSI-org/openOMSI.git (ref v0.2.30)
 ##thermite:fetched
 $ apt-get install -y gcc-mingw-w64-x86-64
 Selecting previously unselected package binutils-mingw-w64-x86-64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 203191 files and directories currently installed.)
+Preparing to unpack .../0-binutils-mingw-w64-x86-64_2.41.90.20240122-1ubuntu1+11.4_amd64.deb ...
+Unpacking binutils-mingw-w64-x86-64 (2.41.90.20240122-1ubuntu1+11.4) ...
+Selecting previously unselected package mingw-w64-common.
+Preparing to unpack .../1-mingw-w64-common_11.0.1-3build1_all.deb ...
+Unpacking mingw-w64-common (11.0.1-3build1) ...
+Selecting previously unselected package mingw-w64-x86-64-dev.
+Preparing to unpack .../2-mingw-w64-x86-64-dev_11.0.1-3build1_all.deb ...
+Unpacking mingw-w64-x86-64-dev (11.0.1-3build1) ...
