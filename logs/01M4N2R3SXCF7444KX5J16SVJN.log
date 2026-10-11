@@ -752,3 +752,10 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m wgpu-core v29.0.4
 [1m[92m   Compiling[0m winnow v0.7.15
 [1m[92m   Compiling[0m colorchoice v1.0.5
+[1m[92m   Compiling[0m bytes v1.12.1
+[1m[92m   Compiling[0m ttf-parser v0.25.1
+[1m[92m   Compiling[0m arrayref v0.3.9
+[1m[92m   Compiling[0m byteorder-lite v0.1.0
+[1m[92m   Compiling[0m toml_write v0.1.2
+[1m[92m   Compiling[0m is_terminal_polyfill v1.70.2
+[1m[92m   Compiling[0m arraydeque v0.5.1
