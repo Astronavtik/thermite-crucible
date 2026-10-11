@@ -597,3 +597,17 @@ $ cargo +stable build --release --target x86_64-pc-windows-gnu
 [1m[92m   Compiling[0m zerovec v0.11.8
 [1m[92m   Compiling[0m displaydoc v0.2.7
 [1m[92m   Compiling[0m memchr v2.8.3
+[1m[92m   Compiling[0m lock_api v0.4.14
+[1m[92m   Compiling[0m windows-sys v0.61.2
+[1m[92m   Compiling[0m crossbeam-utils v0.8.23
+[1m[92m   Compiling[0m bitflags v1.3.2
+[1m[92m   Compiling[0m libc v0.2.189
+[1m[92m   Compiling[0m either v1.18.0
+[1m[92m   Compiling[0m parking_lot v0.12.5
+[1m[92m   Compiling[0m windows-targets v0.52.6
+[1m[92m   Compiling[0m windows-threading v0.2.1
+[1m[92m   Compiling[0m windows-future v0.3.2
+[1m[92m   Compiling[0m tinystr v0.8.4
+[1m[92m   Compiling[0m windows-collections v0.3.2
+[1m[92m   Compiling[0m windows-numerics v0.3.1
+[1m[92m   Compiling[0m crypto-common v0.2.2
